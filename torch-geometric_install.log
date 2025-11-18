@@ -1,0 +1,36 @@
+Looking in links: https://data.pyg.org/whl/torch-1.11.0+cu113.html
+Collecting torch-geometric==2.1.0
+  Downloading torch_geometric-2.1.0.tar.gz (467 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Requirement already satisfied: tqdm in /data/sbaumann/miniconda3/envs/dagr/lib/python3.8/site-packages (from torch-geometric==2.1.0) (4.67.1)
+Requirement already satisfied: numpy in /data/sbaumann/miniconda3/envs/dagr/lib/python3.8/site-packages (from torch-geometric==2.1.0) (1.24.3)
+Requirement already satisfied: scipy in /data/sbaumann/miniconda3/envs/dagr/lib/python3.8/site-packages (from torch-geometric==2.1.0) (1.10.1)
+Requirement already satisfied: jinja2 in /data/sbaumann/miniconda3/envs/dagr/lib/python3.8/site-packages (from torch-geometric==2.1.0) (3.1.6)
+Requirement already satisfied: requests in /data/sbaumann/miniconda3/envs/dagr/lib/python3.8/site-packages (from torch-geometric==2.1.0) (2.32.3)
+Requirement already satisfied: pyparsing in /data/sbaumann/miniconda3/envs/dagr/lib/python3.8/site-packages (from torch-geometric==2.1.0) (3.1.4)
+Collecting scikit-learn (from torch-geometric==2.1.0)
+  Downloading scikit_learn-1.3.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (11 kB)
+Requirement already satisfied: MarkupSafe>=2.0 in /data/sbaumann/miniconda3/envs/dagr/lib/python3.8/site-packages (from jinja2->torch-geometric==2.1.0) (2.1.5)
+Requirement already satisfied: charset-normalizer<4,>=2 in /data/sbaumann/miniconda3/envs/dagr/lib/python3.8/site-packages (from requests->torch-geometric==2.1.0) (3.3.2)
+Requirement already satisfied: idna<4,>=2.5 in /data/sbaumann/miniconda3/envs/dagr/lib/python3.8/site-packages (from requests->torch-geometric==2.1.0) (3.7)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /data/sbaumann/miniconda3/envs/dagr/lib/python3.8/site-packages (from requests->torch-geometric==2.1.0) (2.2.3)
+Requirement already satisfied: certifi>=2017.4.17 in /data/sbaumann/miniconda3/envs/dagr/lib/python3.8/site-packages (from requests->torch-geometric==2.1.0) (2024.8.30)
+Collecting joblib>=1.1.1 (from scikit-learn->torch-geometric==2.1.0)
+  Downloading joblib-1.4.2-py3-none-any.whl.metadata (5.4 kB)
+Collecting threadpoolctl>=2.0.0 (from scikit-learn->torch-geometric==2.1.0)
+  Downloading threadpoolctl-3.5.0-py3-none-any.whl.metadata (13 kB)
+WARNING: The candidate selected for download or install is a yanked version: 'torch-geometric' candidate (version 2.1.0 at https://files.pythonhosted.org/packages/01/82/69a09acb03e26202b7a0a2f65359e35e2d359a143f0dc4391504e0c0260c/torch_geometric-2.1.0.tar.gz (from https://pypi.org/simple/torch-geometric/) (requires-python:>=3.7))
+Reason for being yanked: Missing ninja templates
+Downloading scikit_learn-1.3.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (11.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.1/11.1 MB 122.9 MB/s eta 0:00:00
+Downloading joblib-1.4.2-py3-none-any.whl (301 kB)
+Downloading threadpoolctl-3.5.0-py3-none-any.whl (18 kB)
+Building wheels for collected packages: torch-geometric
+  Building wheel for torch-geometric (setup.py): started
+  Building wheel for torch-geometric (setup.py): finished with status 'done'
+  Created wheel for torch-geometric: filename=torch_geometric-2.1.0-py3-none-any.whl size=687141 sha256=bbd985e0e700853af01f2604253f7a3dd6313a4a908392116f089441c2083b29
+  Stored in directory: /home/sbaumann/.cache/pip/wheels/b8/42/3b/f4d1f1af88f63d529956aa312800905225983a7aab403dd0d3
+Successfully built torch-geometric
+Installing collected packages: threadpoolctl, joblib, scikit-learn, torch-geometric
+Successfully installed joblib-1.4.2 scikit-learn-1.3.2 threadpoolctl-3.5.0 torch-geometric-2.1.0

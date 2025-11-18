@@ -1,0 +1,68 @@
+# Original entries
+*.so
+*.egg-info/
+*.pyc
+build/
+libs/detectron2
+libs/**/*.sh
+
+.idea/
+# Build
+*.so
+*.o
+*.out
+*.dll
+*.exe
+
+# IDE / editor settings
+.vscode/
+*.swp
+
+# Data folders (do not commit large datasets)
+data/
+data/dsec/test/
+data/dsec/train/
+data/DSEC_fragment/test/
+data/ncaltech101/
+dsec-det/test/
+dsec-det/train/
+*.h5
+*.npz
+*.npy
+*.pth
+*.ckpt
+*.tar
+*.zip
+*.gz
+*.7z
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.csv
+# Logs, model outputs, checkpoints
+logs/
+
+# Temporary numpy outputs
+*.npy
+*.npz
+
+# MacOS system files
+.DS_Store
+
+# Other temporary files
+*.tmp
+
+# Model checkpoints
+*.pth
+
+# Images
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.tiff
+*.gif
+
+#sh files
+*.sh

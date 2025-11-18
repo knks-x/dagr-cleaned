@@ -1,0 +1,2 @@
+Looking in links: https://data.pyg.org/whl/torch-1.11.0+cu113.html
+Requirement already satisfied: torch-scatter in /data/sbaumann/miniconda3/envs/dagr/lib/python3.8/site-packages (2.1.2)

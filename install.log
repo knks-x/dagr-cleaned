@@ -1,0 +1,20 @@
+Looking in links: https://data.pyg.org/whl/torch-1.11.0+cu113.html
+Collecting torch-scatter
+  Using cached torch_scatter-2.1.2-cp38-cp38-linux_x86_64.whl
+Installing collected packages: torch-scatter
+Successfully installed torch-scatter-2.1.2
+Looking in links: https://data.pyg.org/whl/torch-1.11.0+cu113.html
+Collecting torch-sparse
+  Downloading torch_sparse-0.6.18.tar.gz (209 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Requirement already satisfied: scipy in /data/sbaumann/miniconda3/envs/dagr/lib/python3.8/site-packages (from torch-sparse) (1.10.1)
+Requirement already satisfied: numpy<1.27.0,>=1.19.5 in /data/sbaumann/miniconda3/envs/dagr/lib/python3.8/site-packages (from scipy->torch-sparse) (1.24.3)
+Building wheels for collected packages: torch-sparse
+  Building wheel for torch-sparse (setup.py): started
+  Building wheel for torch-sparse (setup.py): still running...
+  Building wheel for torch-sparse (setup.py): still running...
+  Building wheel for torch-sparse (setup.py): still running...
+  Building wheel for torch-sparse (setup.py): still running...
+  Building wheel for torch-sparse (setup.py): still running...
+  Building wheel for torch-sparse (setup.py): still running...
